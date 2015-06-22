@@ -1,0 +1,29 @@
+{
+  "name": "alex",
+  "version": "0.0.0",
+  "homepage": "https://github.com/martgnz/alex",
+  "authors": [
+    "Martín González <m@martingonzalez.net>"
+  ],
+  "description": "An interview",
+  "keywords": [
+    "interview",
+    "kde"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "Scrollify": "~0.1.6",
+    "jquery-easing": "*",
+    "font-awesome": "~4.3.0",
+    "vide": "~0.3.5",
+    "wow": "~1.1.2"
+  }
+}
