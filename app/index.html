@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alex</title>
+    <title>Àlex, a free software hacker</title>
     <!-- Bootstrap -->
-    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower_components/bootstra.386/v3.3.2/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/bower_components/bootstra.386/v3.3.2/dist/css/bootstrap-theme.css" rel="stylesheet">
+
     <!-- Custom fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/fontello.css" />
     <!-- Libraries -->
     <link rel="stylesheet" href="/bower_components/wow/css/libs/animate.css">
@@ -21,7 +22,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -32,23 +33,36 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Alex</a>
+          <a class="navbar-brand" href="#">MENU</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">A personal story</a></li>
-            <li><a href="#about">Hacking</a></li>
-            <li><a href="#contact">Blue Systems</a></li>
-            <li><a href="#contact">KDE and open source</a></li>
+            <li class="active"><a href="#intro">Intro</a></li>
+            <li><a href="#life">Life</a></li>
+            <li><a href="#hacking">Hacking</a></li>
+            <li><a href="#kde">KDE and open source</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <section class="fullBackground" data-vide-bg="mp4: video/cover.mp4, webm: video/cover.webm, ogv: video/cover.ogv, poster: img/poster.jpg" data-vide-options="posterType: jpg, loop: true, preload: auto, muted: false, position: 0% 0%">
+    <section id="intro" class="fullBackground" data-vide-bg="mp4: video/cover.mp4, webm: video/cover.webm, ogv: video/cover.ogv, poster: img/poster.jpg" data-vide-options="posterType: jpg, loop: false, preload: auto, muted: true, position: 0% 0%">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="introHeadline pull-right wow slideInDown" data-wow-duration="2s" data-wow-delay="5s">INTRO: Àlex, a free software hacker</h1>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <section id="life" class="fullBackground" data-vide-bg="mp4: video/hacking.mp4, webm: video/hacking.webm, ogv: video/hacking.ogv, poster: img/hacking.jpg" data-vide-options="posterType: jpg, loop: false, preload: auto, muted: false, position: 0% 0%">
+    </section>
+
+    <section id="hacking" class="fullBackground" data-vide-bg="mp4: video/hacking.mp4, webm: video/hacking.webm, ogv: video/hacking.ogv, poster: img/hacking.jpg" data-vide-options="posterType: jpg, loop: false, preload: auto, muted: false, position: 0% 0%">
+    </section>
+
+    <section id="kde" class="fullBackground" data-vide-bg="mp4: video/hacking.mp4, webm: video/hacking.webm, ogv: video/hacking.ogv, poster: img/hacking.jpg" data-vide-options="posterType: jpg, loop: false, preload: auto, muted: false, position: 0% 0%">
     </section>
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -56,7 +70,7 @@
     <script src="/bower_components/Scrollify/jquery.scrollify.min.js"></script>
     <script src="/bower_components/vide/dist/jquery.vide.min.js"></script>
     <script src="/bower_components/wow/dist/wow.min.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/bootstra.386/v3.3.2/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
